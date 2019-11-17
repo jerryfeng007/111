@@ -1,0 +1,30 @@
+查看连接的设备
+adb devices
+
+关闭adb的后台进程
+adb kill-server
+
+卸载App
+adb uninstall com.xueqiu.android
+
+安装App
+adb install com.xueqiu.android_11.32.3_236.apk
+adb -s emulator-5554 install com.xueqiu.android_11.32.3_236.apk
+
+获取App的包名和入口Activity
+adb logcat | grep -i displayed
+adb logcat | grep Displayed
+adb logcat | findstr Displayed
+
+启动应用
+adb shell am start -W -n com.xueqiu.android/.view.WelcomeActivityAlias -S
+
+清理app缓存数据（包括权限），以便回到初始状态
+adb shell pm clear com.xueqiu.android
+
+点击某个坐标
+adb shell input tap 529 1176
+
+uiautomator命令
+adb shell uiautomator dump
+adb shell 'uiautomator dump && cat /sdcard/window_dump.xml'
