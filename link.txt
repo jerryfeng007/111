@@ -1,0 +1,8 @@
+https://github.com/appium
+
+appium-desktop
+https://github.com/appium/appium-desktop/releases
+
+Appium Desired Capabilities
+https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/caps.md
+
