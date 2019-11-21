@@ -1,0 +1,25 @@
+定位：
+id：对应 resource id
+xpath
+accessibility id: 对应 content-desc
+class(不推荐)
+
+http://appium.io/docs/en/writing-running-appium/finding-elements/
+http://appium.io/docs/en/commands/element/find-elements/index.html#selector-strategies
+
+操作
+click
+send_keys
+clear
+swipe
+touch action
+
+touch action有以下几个：
+press
+release
+tap
+tap_and_hold
+longpress
+move_to
+perform
+http://appium.io/docs/en/commands/interactions/touch/tap/

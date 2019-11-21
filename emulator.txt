@@ -1,0 +1,13 @@
+pip install Appium-Python-Client
+https://github.com/appium/python-client
+
+找模拟器
+which emulator
+
+拷贝路径，查看列表
+/d/adt-bundle-windows-x86_64-20140702/sdk/tools/emulator -list-avds
+
+拷贝路径，启动
+/d/adt-bundle-windows-x86_64-20140702/sdk/tools/emulator @Pixel_3_XL_API_24
+
+

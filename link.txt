@@ -1,5 +1,11 @@
 https://github.com/appium
 
+ÎÄµµ
+http://appium.io/docs/en/about-appium/intro/
+
+ÒşÊ½µÈ´ı
+http://appium.io/docs/en/commands/session/timeouts/implicit-wait/
+
 appium-desktop
 https://github.com/appium/appium-desktop/releases
 

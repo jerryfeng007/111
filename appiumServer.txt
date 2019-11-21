@@ -1,4 +1,4 @@
-Appium Server环境安装
+﻿Appium Server环境安装
 
 1. 安装Node.js
 Node.js版本不要太高，也不要太低，推荐LTS版本
@@ -18,6 +18,9 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 cnpm install -g appium
 安装完毕，验证：
 appium
+
+输出到log文件
+appium -g /d/appium.log
 
 相关连接：
 https://shimo.im/docs/HCt3J9DgHwCQ8HdD
