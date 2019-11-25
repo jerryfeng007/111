@@ -12,3 +12,9 @@ https://github.com/appium/appium-desktop/releases
 Appium Desired Capabilities
 https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/caps.md
 
+chromedriver
+https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md
+caps["chromedriverExecutable"] = r"C:\Users\jerry\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-chromedriver\chromedriver\win\chromedriver.exe"
+
+
+

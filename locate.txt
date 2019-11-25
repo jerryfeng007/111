@@ -6,6 +6,13 @@ class(不推荐)
 
 http://appium.io/docs/en/writing-running-appium/finding-elements/
 http://appium.io/docs/en/commands/element/find-elements/index.html#selector-strategies
+uiautomator UiSelector（安卓only）：
+http://appium.io/docs/en/writing-running-appium/android/uiautomator-uiselector/index.html
+
+利用uiautomatorviewer.bat定位元素
+命令行启动（可能需要配置环境变量的path: D:\adt-bundle-windows-x86_64-20140702\sdk\tools\bin）
+如果启动失败，就把appium服务关掉
+uiautomatorviewer.bat
 
 操作
 click
@@ -23,3 +30,23 @@ longpress
 move_to
 perform
 http://appium.io/docs/en/commands/interactions/touch/tap/
+
+capabilities设置
+appPackage
+appActivity
+platformName
+platformName
+autoGrantPermissions
+http://appium.io/docs/en/writing-running-appium/caps/
+
+打电话、发短信
+http://appium.io/docs/en/commands/device/network/gsm-call/
+http://appium.io/docs/en/commands/device/network/send-sms/
+
+performance
+http://appium.io/docs/en/commands/device/performance-data/performance-data-types/
+http://appium.io/docs/en/commands/device/performance-data/get-performance-data/
+
+断言
+http://hamcrest.org/
+
